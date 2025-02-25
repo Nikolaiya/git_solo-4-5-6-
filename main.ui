@@ -7,7 +7,7 @@
     <x>100</x>
     <y>100</y>
     <width>720</width>
-    <height>400</height>
+    <height>450</height>
    </rect>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -19,6 +19,32 @@
       <width>702</width>
       <height>300</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="editButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>320</y>
+      <width>100</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Редактировать</string>
     </property>
    </widget>
   </widget>
